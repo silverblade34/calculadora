@@ -11,7 +11,7 @@ function App() {
   const[input, setInput] = useState('');
 
   const esOperador=valor=>{
-    return isNaN(valor) && (valor != '.')&& (valor != '=')
+    return isNaN(valor) && (valor !== '.')&& (valor !== '=')
   };
 
   const agregarInput = val =>{
