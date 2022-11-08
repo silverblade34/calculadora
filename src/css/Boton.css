@@ -1,0 +1,29 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1; /*Le estamos indicando de que manera se distribuye */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(26, 10, 71);
+    color: #ffff;
+    border-radius: 25px;
+    border: 2px solid #ffff;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.operador{
+    background-color: rgb(24, 59, 20);
+}
+
+.boton-contenedor:hover{
+    background-color:blueviolet;
+    transition: all 0.8s;
+}
+.operador:hover{
+    background-color: rgb(180, 119, 28);
+    transition: all 0.8s;
+}
